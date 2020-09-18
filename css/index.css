@@ -1,0 +1,42 @@
+@charset "utf-8"; 
+/* Reset */
+@import "reset-css";
+
+#app{
+  /*background: url("../asset/images/home_agency.jpg") no-repeat;
+  background-size: cover;
+  height: 4400px;
+  margin: 0 auto;*/
+  font-family: "Gill Sans", sans-serif;
+}
+.banner {
+  background: url("../asset/images/banner.jpg") no-repeat;
+  background-size: cover;
+  height: 766px;
+  background-size: 100%;
+  margin: 0 auto;
+  /*opacity: 0.5;*/
+  filter: grayscale(1);
+}
+.banner--logo {
+  color: #ffffff;
+  font-size: 1.8vw;
+  padding: 36px 0px 0px 55px;
+}
+.banner--hook {
+  color: #ffffff;
+  padding: 12.7% 0% 0% 20.8%;
+}
+.banner--hook-welcome h4{
+  padding: 0% 5% 5.4% 0%;
+}
+.banner--hook-title h1 {
+  font-size: 3.7vw;
+  font-weight: bold;
+}
+.banner--hook-title h1:nth-child(3) {
+  padding-bottom: 1%;
+}
+.banner--hook-paragraph {
+  font-size: 0.97vw;
+}
