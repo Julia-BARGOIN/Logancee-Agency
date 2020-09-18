@@ -40,3 +40,30 @@
 .banner--hook-paragraph {
   font-size: 0.97vw;
 }
+
+.content {
+  /*background: red;*/
+  /*opacity: 0.2;*/
+  height: 426px;
+  width: 930px;
+  margin: 205px 0px 0px 297px;
+}
+.content--aboutUs {
+  height: 426px;
+  width: 460px;
+  position: absolute;
+}
+.content--aboutUs p:nth-child(1) {
+  padding: 60px 0px 20px 0px;
+  font-size: 20px;
+  letter-spacing: .5rem;
+}
+.content--aboutUs h4 {
+  font-weight: bold;
+  font-size: 50px;
+}
+.content--aboutUs p:nth-child(3) {
+  padding: 50px 0px 0px 135px;
+  font-size: 15px;
+  line-height: 20px;
+}
